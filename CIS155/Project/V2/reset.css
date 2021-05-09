@@ -1,0 +1,35 @@
+/* 
+    Easy & Eco-friendly
+
+    Author: Kyra Sabol
+    Date created: May 5, 2021
+
+    Filename: reset.css
+
+    PROGRESS
+        5/5/21: added structure and text reset styles
+
+*/
+
+/* M3LO1 Demonstrated the use of a CSS reset style sheet */
+
+/* Structure */
+
+aside, figure, footer, header, nav, section {
+    display: block;
+}
+
+nav a {
+    text-decoration: none;
+}
+
+/* Text */
+
+body {
+    line-height: 1.5em;
+    width: 95%;
+}
+
+footer {
+    text-align: center;
+}
