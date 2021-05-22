@@ -1,0 +1,127 @@
+/* 
+    Easy & Eco-friendly
+
+    Author: Kyra Sabol
+    Date created: May 7, 2021
+
+    Filename: recyclegrid.css
+
+    PROGRESS
+        5/7/21:
+       
+    Color set: 
+        Brown: rgba(195,167,140,255)
+        White: rgba(252,251,249,255)
+        Green: rgba(192,208,136,255)
+*/
+
+/* M3LO6 Demonstrate formatting a grid 
+(impact = places content in selected rows and columns to create a uniformed look and 
+easier layout to place new items) */
+
+/* Grid */
+
+section#grid {
+    display: grid;
+    grid-template-rows: auto auto auto auto auto auto;
+    grid-template-columns: 20% 20% 20% 20% 20% 20%;
+}
+
+section#howto{
+    grid-row-start: 1;
+    grid-row-end: 2;
+    grid-column-start: 1;
+    grid-column-end: 4;
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 10px;
+    border-color: rgba(195,167,140,255);
+    padding: 1em;
+    margin: 1em;
+}
+
+img#recycle1 {
+    grid-row-start: 1;
+    grid-row-end: 2;
+    grid-column-start: 4;
+    grid-column-end: 6;
+}
+
+section#what {
+    grid-row-start: 3;
+    grid-row-end: 4;
+    grid-column-start: 1;
+    grid-column-end: 4;
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 10px;
+    border-color: rgba(195,167,140,255);
+    padding: 1em;
+    margin: 1em;
+}
+/* M4LO3 Demonstrate the use of rounded corners for borders (CSS) */
+
+img#recycle2 {
+    grid-row-start: 3;
+    grid-row-end: 4;
+    grid-column-start: 4;
+    grid-column-end: 6;
+}
+
+
+section#where {
+    grid-row-start: 5;
+    grid-row-end: 5;
+    grid-column-start: 1;
+    grid-column-end: 4;
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 10px;
+    border-color: rgba(195,167,140,255);
+    padding: 1em;
+    margin: 1em;
+}
+
+img#recycle3{
+    grid-row-start: 5;
+    grid-row-end: 5;
+    grid-column-start: 4;
+    grid-column-end: 6;
+}
+
+img {
+    display: block;
+    width: 90%;
+    margin: 2em;
+    padding: 1em;
+}
+
+
+
+
+/* M4LO4 Demonstrate the use of gradients (CSS) */
+
+/* 
+section {
+    background: url(symbol.jpeg) no-repeat fixed;
+}
+M3LO9 Demonstrate fixed, static, or inherited positioning 
+(this item remains the same on the page no matter where you scroll. I chose not to use this style rule.)
+
+
+h1#gradient {
+    position: absolute;
+}
+M3LO8A Demonstrate absolute positioning (this item remains in the specified place on the page; I did not find
+a good use for this style rule)
+
+
+img#recycle3 {
+   -webkit-transform: translatey(180deg);
+   transform: translatey(180deg)
+}
+M4LO8 Demonstrate the use of transformations for 2D or 3D images
+M3LO11 Demonstrate -prefix- style browser extensions use in CSS (older and different browsers use this to display information)
+*/
+
+
